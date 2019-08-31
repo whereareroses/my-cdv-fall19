@@ -6,6 +6,6 @@ Hi! My name is [your name] and in this repository I will develop [my work](my-wo
 ###### Notes:
 
 - [Cheatsheet to write Markdown](https://guides.github.com/features/mastering-markdown/) (the 'language' this very document is written in)
-- [How to work on my projects and then upload them to this repository](placeholder)
-- [Quick link to Class Wiki](https://github.com/leoneckert/my-cdv-fall19/wiki) and [how to submit assignments](placeholder)
+- [How to use Github](https://github.com/leoneckert/cdv-fall19/tree/master/coding-foundation#pushing-changes-to-your-remote-github-repository)
+- [Quick link to Class Wiki](https://github.com/leoneckert/my-cdv-fall19/wiki) and [how to submit assignments](https://github.com/leoneckert/cdv-fall19/tree/master/other/how-to-submit-assigments)
 - [Class Repository](https://github.com/leoneckert/cdv-fall19)
