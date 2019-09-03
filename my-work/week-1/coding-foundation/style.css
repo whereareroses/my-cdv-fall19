@@ -1,0 +1,40 @@
+html,body{
+  background-color: black;
+}
+#box1{
+  border: 3px solid black;
+  position:absolute;
+  top:55px;
+  left:360px;
+  width:200px;
+  height:20px;
+
+
+}
+#box2{
+  border: 3px solid black;
+  position:absolute;
+  top:55px;
+  left:500px;
+  width:150px;
+  height:30px;
+  text-align: center;
+  background-color:white;
+}
+#boxes{
+width:90%;
+height:100%;
+position: relative;
+  display: flex;
+    flex-wrap: wrap;
+}
+
+.boxstyle{
+background-color: white;
+width:20px;
+height:20px;
+position:relative;
+top:100px;
+left:100px;
+margin:10px;
+}
