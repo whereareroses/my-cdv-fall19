@@ -1,0 +1,30 @@
+body{
+  width, height: 100%;
+  margin: 0;
+}
+#viz{
+  border: 1px black solid;
+
+  width:800px;
+  height:400px;
+  position: relative;
+  top:100px;
+  left:100px;
+}
+#axis{
+ border-bottom: 1px black solid;
+ border-left: 1px black solid;
+ width:600px;
+ height:250px;
+ position: relative;
+ top:-250px;
+ left:200px;
+}
+#line{
+ border-bottom: 1px black solid;
+ width:600px;
+ height:100px;
+ position: relative;
+ top:-480px;
+ left:200px;
+}
