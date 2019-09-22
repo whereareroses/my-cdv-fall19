@@ -1,0 +1,5 @@
+When using Taobao, an app designed for shopping in China, the app will collect your browsing history and purchasing history, then analyze them and based on that, predict what products you will like and tend to buy, then present them on your home page or recommendation page. Then you are more likely to click on those detailed page of that product and then buy it.
+
+The map app on my phone, called Baidu map, will use my location data when I’m using it. It will detect where I spend most of my day and night and label them as “company”/ “school” and “home”. In the morning when I opened the app, it will automatically predict that I’m going to school and recommend the easiest and lightest way to travel with. Then I will very much likely to take the route it recommend to me.
+
+On YouTube, when I watched some videos from a certain YouTuber, it will recommend more and more videos from that YouTuber or similar videos to me on the home page. It will display them on my home page and I would much likely to click on them and watch more videos than I had expected. Sometimes they will recommend some advertising videos to me too, which is very annoying.
