@@ -1,0 +1,145 @@
+[
+    {
+        "date": 9.24,
+        "screentime": 322,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "appthree": "Instagram",
+        "timeone": 175,
+        "timetwo": 61,
+        "timethree": 16,
+        "pickups": 146
+    },
+    {
+        "date": 9.25,
+        "screentime": 396,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "appthree": "NetEase Music",
+        "timeone": 140,
+        "timetwo": 90,
+        "timethree": 85,
+        "pickups": 216
+    },
+    {
+        "date": 9.26,
+        "screentime": 320,
+        "appone": "WeChat",
+        "apptwo": "Weibo",
+        "appthree": "NetEase Music",
+        "timeone": 167,
+        "timetwo": 54,
+        "timethree": 23,
+        "pickups": 135
+    },
+    {
+        "date": 9.27,
+        "screentime": 418,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "appthree": "Camera",
+        "timeone": 233,
+        "timetwo": 89,
+        "timethree": 34,
+        "pickups": 234
+    },
+    {
+        "date": 9.28,
+        "screentime": 433,
+        "appone": "WeChat",
+        "apptwo": "Camera",
+        "appthree": "Werewolves",
+        "timeone": 245,
+        "timetwo": 87,
+        "timethree": 63,
+        "pickups": 287
+    },
+    {
+        "date": 9.29,
+        "screentime": 355,
+        "appone": "WeChat",
+        "apptwo": "Quora",
+        "appthree": "Werewolves",
+        "timeone": 212,
+        "timetwo": 56,
+        "timethree": 34,
+        "pickups": 189
+    },
+    {
+        "date": 9.3,
+        "screentime": 406,
+        "appone": "WeChat",
+        "apptwo": "Quora",
+        "appthree": "Werewolves",
+        "timeone": 217,
+        "timetwo": 67,
+        "timethree": 48,
+        "pickups": 213
+    },
+    {
+        "date": 10.01,
+        "screentime": 697,
+        "appone": "Werewolves",
+        "apptwo": "WeChat",
+        "appthree": "Taobao",
+        "timeone": 489,
+        "timetwo": 148,
+        "timethree": 34,
+        "pickups": 224
+    },
+    {
+        "date": 10.02,
+        "screentime": 610,
+        "appone": "Werewolves",
+        "apptwo": "WeChat",
+        "appthree": "Taobao",
+        "timeone": 471,
+        "timetwo": 151,
+        "timethree": 27,
+        "pickups": 191
+    },
+    {
+        "date": 10.03,
+        "screentime": 639,
+        "appone": "Werewolves",
+        "apptwo": "WeChat",
+        "appthree": "Meitu",
+        "timeone": 389,
+        "timetwo": 118,
+        "timethree": 34,
+        "pickups": 123
+    },
+    {
+        "date": 10.04,
+        "screentime": 778,
+        "appone": "Werewolves",
+        "apptwo": "WeChat",
+        "appthree": "Renren",
+        "timeone": 571,
+        "timetwo": 91,
+        "timethree": 44,
+        "pickups": 107
+    },
+    {
+        "date": 10.05,
+        "screentime": 379,
+        "appone": "Werewolves",
+        "apptwo": "WeChat",
+        "appthree": "Meitu",
+        "timeone": 216,
+        "timetwo": 136,
+        "timethree": 13,
+        "pickups": 144
+    },
+    {
+        "date": 10.06,
+        "screentime": 605,
+        "appone": "Werewolves",
+        "apptwo": "WeChat",
+        "appthree": "NetEase Music",
+        "timeone": 497,
+        "timetwo": 82,
+        "timethree": 24,
+        "pickups": 75
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "date": 9.24,
+        "screentime": 322,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 175,
+        "timetwo": 61,
+        "timethree":86
+    },
+    {
+        "date": 9.25,
+        "screentime": 396,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 140,
+        "timetwo": 90,
+        "timethree": 166
+    },
+    {
+        "date": 9.26,
+        "screentime": 320,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 167,
+        "timetwo": 9,
+        "timethree": 144
+    },
+    {
+        "date": 9.27,
+        "screentime": 418,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 233,
+        "timetwo": 89,
+        "timethree": 96
+    },
+    {
+        "date": 9.28,
+        "screentime": 433,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 245,
+        "timetwo": 63,
+        "timethree": 125
+    },
+    {
+        "date": 9.29,
+        "screentime": 355,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 212,
+        "timetwo": 34,
+        "timethree": 109
+    },
+    {
+        "date": 9.30,
+        "screentime": 406,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 217,
+        "timetwo": 48,
+        "timethree": 141
+    },
+    {
+        "date": 10.01,
+        "screentime": 697,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 148,
+        "timetwo": 489,
+        "timethree": 60
+    },
+    {
+        "date": 10.02,
+        "screentime": 610,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 151,
+        "timetwo": 441,
+        "timethree": 18
+    },
+    {
+        "date": 10.03,
+        "screentime": 639,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 118,
+        "timetwo": 389,
+        "timethree": 132
+    },
+    {
+        "date": 10.04,
+        "screentime": 778,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 91,
+        "timetwo": 571,
+        "timethree": 116
+    },
+    {
+        "date": 10.05,
+        "screentime": 379,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 136,
+        "timetwo": 216,
+        "timethree": 27
+    },
+    {
+        "date": 10.06,
+        "screentime": 605,
+        "appone": "WeChat",
+        "apptwo": "Werewolves",
+        "other": "other",
+        "timeone": 82,
+        "timetwo": 497,
+        "timethree": 26
+    }
+]
