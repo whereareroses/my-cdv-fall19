@@ -128,5 +128,16 @@
         "timeone": 82,
         "timetwo": 497,
         "timethree": 26
+    },
+    {
+      "date": 10.07,
+      "screentime": 301,
+      "appone": "WeChat",
+      "apptwo": "Werewolves",
+      "other": "other",
+      "timeone": 189,
+      "timetwo": 34,
+      "timethree":78
+
     }
 ]
