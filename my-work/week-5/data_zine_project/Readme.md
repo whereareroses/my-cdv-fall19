@@ -2,10 +2,10 @@
 My project is about the screentime on my iPhone from September 24th to October 7th, two weeks. I collected the actual screentime on my iPhone each day and the amount of time I spend on different apps.
 
 My project looks like this:
-![cover](/screenshots/cover.png)
-![page2](/screenshots/page2.png)
-![page3](/screenshots/page3.png)
-![back](/screenshots/back.png)
+![cover](screenshots/cover.png)
+![page2](screenshots/page2.png)
+![page3](screenshots/page3.png)
+![back](screenshots/back.png)
 
 I was inspired by the [Gun Death Graph](https://fivethirtyeight.com/features/gun-deaths/). Because screetime is a relatively large dataset that contains a lot of possibilities. So I drew inspiration from this graph and created my own.
 
