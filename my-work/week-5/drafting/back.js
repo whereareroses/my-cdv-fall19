@@ -1,79 +1,113 @@
 let w = 1200
 let h = 800
-let dateConverter = d3.timeParse("%m.%d");
+let xPadding = 50
 
-//create a svg
+let yScale = d3.scaleLinear().domain([0,800]).range([0,h/2]);
+let xScale = d3.scaleLinear().domain([0,14]).range([0,w*2/3]);
+let yScale2 = d3.scaleLinear().domain([800,0]).range([0,h/2]);
+
+
+let colorScale = d3.scaleLinear().domain([300,400,697]).range(["cyan","springGreen","steelblue"])
+function xPosition(d, i){
+  return xScale(i)+100;
+}
+function getGroupTranslation(d, i){
+  return "translate(" + xPosition(d,i) + "," + h*2/3 + ")";
+}
+function getDate(d, i){
+  return d.date + " - " + d.screentime + "mins"
+}
+function height2(d,i){
+  return yScale(d.screentime);
+}
+function getColor(d,i){
+  return colorScale(d.screentime);
+
+}
+
+
+
 let viz = d3.select("#container")
   .append("svg")
-    .attr("width", w*2)
+    .attr("width", w)
     .attr("height", h)
     .style("background-color", "lavender")
 ;
 
 
-
-//create a new array of data
 function gotData(incomingData){
-  let newData = [];
-  for(let i=0;i<incomingData.length-1;i++){
-    let datapoint = incomingData[i];
-    for(let q=0;q<datapoint.timeone+1;q++){
-      newData.push({date:dateConverter(datapoint.date), app:"WeChat"})
-    }
-    for(let j=0;j<datapoint.timetwo+1;j++){
-      newData.push({date:dateConverter(datapoint.date), app:"Werewolves"})
-    }
-    for(let u=0;u<datapoint.timethree+1;u++){
-      newData.push({date:dateConverter(datapoint.date), app:"other"})
-    }
-  }
+  console.log(incomingData);
 
-//bind data to g elements
-      var g = viz.selectAll('g')
-          .data(newData)
-          .enter()
-          .append('g')
-          .classed("datagroup", true)
-      ;
-//assign positions to the dots
-  function yPosition(d,i){
-    return Math.floor(i/100)*11+60
-  }
-  function xPosition(d,i){
-    return (i - Math.floor(i/100)*100)*11.5 +30
-  }
-
-  //get color
-  function getColor(d,i){
-      if (d.date.getMonth() == 8){
-        return "grey";
-      }else{
-        return "red";
-      }
-    }
-  var circles =   g.append('circle')
-           .attr('cx', xPosition)
-           .attr('cy', yPosition)
-           .attr('r',3.5)
-           .attr("opacity","0.5")
-           .attr('fill',getColor);
+  let datagroups = viz.selectAll(".datagroup").data(incomingData).enter()
+    .append("g")
+      .classed("datagroup", true)
+  ;
 
 
+viz.append("text")
+  .text("This is the bar graph of the screentime on each day from 9.24 - 10.7.")
+  .attr("y", -40)
+  .attr("x",10)
+  .attr("font-size","20")
+  .attr("font","Times New Roman")
+  .attr("font-stretch", "semi-expanded")
+  .attr("fill", "navy")
+  .attr("transform", "rotate(90)")
+;
+viz.append("text")
+  .text("The deeper the color is, the more of the screemtime is on that day.")
+  .attr("y", -10)
+  .attr("x",10)
+  .attr("font-size","20")
+  .attr("font","Times New Roman")
+  .attr("font-stretch", "semi-expanded")
+  .attr("fill", "navy")
+  .attr("transform", "rotate(90)")
+  ;
 
+  let rects = datagroups.append("rect")
+      .attr("x", 150)
+      .attr("y", function(d,i){
+        return (-1)*height2(d,i)
+      })
+      .attr("width", 20)
+      .attr("height", height2)
+      .attr("fill", getColor)
+  ;
 
+  let labels = datagroups.append("text")
+      .text(getDate)
+      .attr("y", -150)
+      .attr("x",10)
+      .attr("fill", getColor)
+      .attr("transform", "rotate(90)")
+  ;
 
+  let xAxis = d3.axisTop(xScale);
+  let xAxisGroup = viz.append("g").attr("class","xaxis").call(xAxis).attr("transform","translate(100," + h*2/3 + ")");
+  xAxisGroup.call(xAxis).attr("transform","translate(250," + h*2/3 + ")");
 
-
-
-
-
-
-
-
-
-  }
+  let yAxisGroup = viz.append("g").attr("class","yaxis");
+  yAxisGroup.call(d3.axisLeft(yScale2)).attr("transform","translate(250"  + "," + 133 + ")");
 
 
 
 
-  d3.json("screentime.json").then(gotData);
+  datagroups.attr("transform", getGroupTranslation);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+d3.json("screentime.json").then(gotData);

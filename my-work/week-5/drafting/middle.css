@@ -1,0 +1,26 @@
+#graphOne{
+width:600px;
+height:800px;
+position: relative;
+}
+#graphTwo{
+width:600px;
+height:800px;
+position: relative;
+top:-800px;
+left:600px;
+}
+#graphThree{
+width:600px;
+height:800px;
+position: relative;
+top:-1600px;
+left:1200px;
+}
+#graphFour{
+width:600px;
+height:800px;
+position: relative;
+top:-2400px;
+left:1800px;
+}
