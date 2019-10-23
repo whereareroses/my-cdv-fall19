@@ -85,9 +85,7 @@ function drawViz(){
 
   let data = getName(incomingData,name);
   console.log(data)
-  let datagroups = vizgroup.selectAll(".datagroup").data(data,function(d,i){
-  return d.name;
-  });
+  let datagroups = vizgroup.selectAll(".datagroup").data(data);
 
   let enterringDatagroup = datagroups.enter()
     .append("g")
@@ -101,6 +99,9 @@ function drawViz(){
     enterringDatagroup.transition().attr("transform", function(d, i){
     return "translate("+ xScale(d.x) + ", " + yScale(d.y) + ")"
   });
+    datagroups.transition().attr("transform", function(d, i){
+  return "translate("+ xScale(d.x) + ", " + yScale(d.y) + ")"
+});
 
 }
 
