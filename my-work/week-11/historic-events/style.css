@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  margin-top:30px;
+}
+
+.dcircle:hover {
+  fill:lime;
+}
+.datacircle:hover {
+  fill:crimson
+}
+
+
+/* .datagroup circle:hover{
+
+}
+.datagroup:hover circle{
+
+} */
