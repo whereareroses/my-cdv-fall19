@@ -82,7 +82,7 @@ datagroups.append("text");
     datagroups.filter(function(dd){
       return d != dd;
     }).select("circle")
-    .transition().attr("fill","lavender")
+    .transition().attr("fill","grey")
   })
   datagroups.on("mouseout",function(){
     let element = d3.select(this);
