@@ -1,0 +1,15 @@
+.datacircle:hover {
+  fill:turquoise
+}
+.datarect:hover {
+  fill:lightcoral
+}
+
+.title{
+font-family: American Typewriter, serif;
+font-size: 30px;
+fill:blueviolet;
+}
+.illustration{
+
+}

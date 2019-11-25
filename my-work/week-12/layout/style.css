@@ -1,0 +1,45 @@
+h1{
+  position: fixed;
+  top:10px;
+  left:500px
+}
+#bigBox{
+  width:600px;
+  height:800px;
+  position:fixed;
+  top:80px;
+  left:350px;
+  border: solid black 1px
+}
+#graphOne{
+  width:200px;
+  height:200px;
+  position: fixed;
+  top:130px;
+  left:400px;
+    border: solid black 1px
+}
+#graphTwo{
+  width:200px;
+  height:200px;
+  position: fixed;
+  top:280px;
+  left:700px;
+    border: solid black 1px
+}
+#graphThree{
+  width:200px;
+  height:200px;
+  position: fixed;
+  top:450px;
+  left:400px;
+    border: solid black 1px
+}
+#graphFour{
+  width:200px;
+  height:200px;
+  position: fixed;
+  top:600px;
+  left:700px;
+    border: solid black 1px
+}
