@@ -1,0 +1,29 @@
+.datacircle:hover {
+  fill:turquoise
+}
+.datarect:hover {
+  fill:lightcoral
+}
+
+.title{
+font-family: American Typewriter, serif;
+font-size: 30px;
+fill:blueviolet;
+}
+h1{
+  position: fixed;
+  top:10px;
+  left:500px
+}
+svg{
+  position: fixed;
+
+}
+#container{
+  width:1200px;
+  height:600px;
+  position:fixed;
+  top:80px;
+  left:100px;
+  border: solid black 1px
+}

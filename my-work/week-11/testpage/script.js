@@ -1,11 +1,11 @@
 let w = 1200;
-let h = 800;
+let h = 600;
 let padding = 90;
 
 let viz = d3.select("#container").append("svg")
     .style("width", w)
     .style("height", h)
-    .style("background-color", "azure")
+
 ;
 let xScale = d3.scaleLinear().range([padding, w-padding]);
 
