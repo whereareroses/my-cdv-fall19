@@ -1,0 +1,54 @@
+h1{
+  position: fixed;
+  top:10px;
+  left:500px
+}
+svg{
+  position: fixed;
+
+}
+#container{
+  width:1200px;
+  height:600px;
+  position:fixed;
+  top:80px;
+  left:100px;
+  border: solid black 1px
+}
+.flex{
+  display: flex;
+  flex-flow: row wrap;
+}
+.lilbox{
+  position: relative;
+  top:80px;
+  left:20px;
+  width:150px;
+  height:150px;
+  border: solid black 1px;
+  margin:20px;
+}
+#graphTwo{
+  width:200px;
+  height:200px;
+  position: fixed;
+  top:280px;
+  left:700px;
+    border: solid black 1px
+}
+#graphThree{
+  width:200px;
+  height:200px;
+  position: fixed;
+  top:450px;
+  left:400px;
+    border: solid black 1px
+}
+#graphFour{
+  width:200px;
+  height:200px;
+  position: fixed;
+  top:600px;
+  left:700px;
+    border: solid black 1px
+}

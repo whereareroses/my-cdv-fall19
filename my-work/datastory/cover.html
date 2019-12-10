@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>how couples meet and stay together</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- include the d3 library -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+
+  </head>
+  <body>
+
+<div id = "container" >
+  <img src = "pics/cover.jpg" alt = "love" id = "love"></img>
+  <!-- <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#How do they meet?">How They Meet</a></li>
+  <li><a href="#contact">On vs Offline</a></li>
+  <li><a href="#about">Duration</a></li>
+  <li><a href="#">About</a></li> -->
+<!-- </ul> -->
+<h1> How Couples Meet and Stay Together</h1>
+<p id = "p1"> Do traditional couples and nontraditional couples meet in the same way?<br><br>
+What kinds of couples are more likely to have met online?<br><br>
+ Does meeting online lead to greater or less couple stability?
+</p>
+<p id = "p2"> scroll down to know more...</p>
+<img src = "pics/arrow.png" alt="arrow" id = "arrow"></img>
+</div>
+<div id = "texts">
+  <p class = "graph1" style = "font-size: 25px; position: absolute; top:120%; left:30px;" >How do they meet?</p>
+  <p  class = "graph1" style= "top:1340px; left:20px"> met through coworker</p>
+  <p  class = "graph1" style= "top:1340px; left:210px"> met through family</p>
+  <p  class = "graph1" style= "top:1340px; left:400px"> met through friend</p>
+  <p  class = "graph1" style= "top:1340px; left:590px"> met through neighbor</p>
+  <p  class = "graph1" style= "top:1340px; left:780px"> offline other ways</p>
+  <p  class = "graph1" style= "top:1540px; left:20px"> Internet chat</p>
+  <p  class = "graph1" style= "top:1540px; left:210px"> Internet game</p>
+  <p  class = "graph1" style= "top:1540px; left:400px"> Internet dating App</p>
+  <p  class = "graph1" style= "top:1540px; left:590px"> social networking</p>
+  <p  class = "graph1" style= "top:1540px; left:780px"> Internet otherways</p>
+  <p class = "graph2" style = "font-size: 25px; position: absolute; top:120%; left:30px;">Online vs Offline?</p>
+  <p class = "graph2" style= "top:1450px; left:370px">met online</p>
+  <p class = "graph2" style= "top:1450px; left:800px">met offline</p>
+  <p id= "graph3"  style = "font-size: 25px; position: absolute; top:120%; left:30px;">Relationship Duration</p>
+</div>
+<div id = "textboxes">
+<div class="box" id="one">
+  <p>These are the major ways that couples meet one another (Based on the respondant's perspective). Offline other ways include: in bar/restaurant; on a blind date; in church...</p>
+  <p>Dating apps have been a major way that people meet each other ever since its emergence in 2000.</p>
+  <p>"It used to be that finding a partner is something one did with their community,” says Thomas. “Now it is basically an individual quest."</p>
+  <p>The second row is about couples who only met through Internet and have never seen each other in person before.</p>
+  <p>"Internet" by itself is unspecified internet. The definition is according to the respondant.</p>
+  <p id ="p3">scroll down to know more</p>
+</div>
+<div class="box" id="two">
+  <p>This is about the amount of people met online/not online when the survey was carried out in 2010. </p>
+  <p>“People used to make up stories about how they met, so they wouldn’t have to admit that they met online, but now many people embrace it,” says Thomas.</p>
+  <p>Research suggests that online dating has led to more interracial marriages, more couples with different religions and levels of education.</p>
+  <p> The happiest couples, it seems, are those who met through church. These partners report the highest overall relationship satisfaction.</p>
+  <p>Click the circle to see more details.</p>
+  <p id ="p3">scroll down to know more</p>
+</div>
+<div class="box" id="three">
+  <p>These represents the duration of the relationships and how they meet.</p>
+  <p>Most pink dots (who met through the Internet), tend to squeeze in the left part of the graph. Since the Internet became popular in the 21st century.</p>
+  <p>Nearly 30% of new couples now meet online. Today the Internet is the second-most common way to meet a partner, according to results from the NEW
+    How Couples Meet and Stay Together Survey (2017), with web introductions ranked only behind introduction by mutual friends.</p>
+  <p>That new survey, How Couples Meet and Stay Together 2017, features new questions about subjects' use of
+     phone apps like Tinder and Grindr for dating and meeting partners.</p>
+</div>
+</div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p class="modalcontent">Case ID:</p><p class="modalcontent" id = "modalcontent1"></p>
+    <p class="modalcontent">Relationship Duration:</p> <p class="modalcontent" id = "modalcontent2"></p>
+    <p class="modalcontent">Relationship Status:</p> <p class="modalcontent" id = "modalcontent3"></p>
+    <p class="modalcontent">Age Difference:</p><p class="modalcontent" id = "modalcontent4"></p>
+    <p class="modalcontent">Gender Attraction:</p><p class="modalcontent" id = "modalcontent5"></p>
+    <p class="modalcontent">How They Met:</p><p class="modalcontent" id = "modalcontent6"></p>
+    <p class="modalcontent">Education Level Comparison:</p><p class="modalcontent" id = "modalcontent7"></p>
+    <p class="modalcontent">Religion Comparision:</p><p class="modalcontent" id = "modalcontent8"></p>
+
+  </div>
+
+    <!-- our main script: -->
+    <script type="module" src="leonScroller.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

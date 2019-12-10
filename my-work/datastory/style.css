@@ -1,0 +1,187 @@
+svg{
+  position: absolute;
+  background-color: black;
+  top:120%;
+  left:0px;
+}
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position:absolute;
+  top:8px;
+  left:8px;
+  width:1610px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+} */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 50%; /* Full width */
+  height: 80%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  height:550px;
+  overflow:scroll;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.xaxisgroup line{
+  stroke: white;
+}
+
+.xaxisgroup path{
+  stroke: white;
+}
+
+.xaxisgroup text{
+  fill: white;
+}
+
+h1 {
+    position: relative;
+    top:-850px;
+    left:60px;
+    color: white;
+    font-family: Trattatello;
+    font-size: 60px
+}
+p{  font-family: Baskerville;
+  color:white;
+  text-align: left;
+  font-size: 20px;
+  margin: 20px
+}
+.modalcontent{
+  color:black
+}
+.graph1{
+  color: white;
+  font-family: Baskerville;
+  font-size: 15px;
+  position: absolute;
+}
+.graph2{
+  color: white;
+  font-family: Baskerville;
+  font-size: 15px;
+  position: absolute;
+  display: none;
+}
+#graph3{
+  color: white;
+  font-family: Baskerville;
+  font-size: 15px;
+  position: absolute;
+  display: none;
+}
+#p1 {
+  transition: all 4s ease;
+  font-family: Baskerville;
+  color:white;
+  position: relative;
+  top:-850px;
+  left:60px;
+  text-align: left;
+  font-size: 25px;
+}
+#p2{
+  font-family: Baskerville;
+  color:white;
+  position: relative;
+  top:-150px;
+  left:45%;
+  text-align: left;
+  font-size: 15px;
+  transform: rotate(90deg)
+}
+#p3{
+  font-family: Baskerville;
+  color:lavender;
+  position: relative;
+  top:130px;
+  left:48%;
+  text-align: left;
+  font-size: 15px;
+  transform: rotate(90deg)
+}
+#love{
+  height:22%;
+  width:1700px;
+  position: relative;
+  padding: none;
+  margin: none;
+  left:-10px;
+  top:-10px;
+}
+#arrow{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top:-800px;
+  left:90%;
+  transform: rotate(135deg)
+}
+
+#textboxes {
+    width: 25%;
+    border: white 1px solid;
+    height: 60vh;
+    position:absolute;
+    top:120%;
+    left:70%;
+    overflow:scroll;
+
+  }
+.box{
+    border-top: 1px white solid;
+    height:53vh;
+    background-color: grey;
+    background-blend-mode: darken;
+  }
