@@ -437,20 +437,9 @@ datagroups.append("text").attr("fill,white");
       else if(isIOther(d) == true){
         document.getElementById("modalcontent6").innerHTML = "online other ways"
       }
+      document.getElementById("modalcontent7").innerHTML = d.respondent_yrsed +" & " + d.partner_yrsed
+      document.getElementById("modalcontent8").innerHTML = d.respondent_race +" & " + d.partner_race
 
-      if(d.pp2_ppeduc == ''){
-      document.getElementById("modalcontent7").innerHTML = d.pp3_ppeducat +" & " + d.ppeducat
-      }
-      else{
-      document.getElementById("modalcontent7").innerHTML = d.pp2_ppeducat +" & " + d.ppeducat
-      }
-
-      if(d.pp3_ppethm == ''){
-      document.getElementById("modalcontent8").innerHTML = d.pp2_ppethm +" & " + d.ppethm
-      }
-      else{
-      document.getElementById("modalcontent8").innerHTML = d.pp3_ppethm +" & " + d.ppethm
-      }
         })
     span.onclick = function() {
       modal.style.display = "none";
