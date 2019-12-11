@@ -16,7 +16,10 @@ The major thing I want to discover is definitly the way the meet each other. But
 
 #### Coding Process
 ##### Stage One: Random Positioning
-I pulled out some aspects from the dataset and tried to work with them. I used the filter funciton to sort the incoming data into different groups and created different datagroups for them. At that time I did not know about the simulation function that d3 has. So I placed them randomly on the page, each in a tiny box. At that time my page looks like this:
+I pulled out some aspects from the dataset and tried to work with them. I used the filter funciton to sort the incoming data into different groups and created different datagroups for them. At that time I did not know about the simulation function that d3 has. So I placed them randomly on the page, each in a tiny box.
+
+
+At that time my page looks like this:
 ![Prototype](/pics/stage1.png)
 ![Prototype2](/pics/stage1-.png)
 
@@ -24,6 +27,7 @@ I pulled out some aspects from the dataset and tried to work with them. I used t
 After I learned the simulation technique, I decided that it is what I want with my project, so I tried to implement it into my code. At first what I did is seperating the dataset. I filtered them into sub-datasets and create one simulation for each of them. It worked in the first graph, but when I tried to move on to the next graph I encoutered problem. The two simulations could work properly.
 
 At first I thought it was because the first simulation didn't stop. So I tried the simulation.stop(), simulation.tick(), and simulation.restart(). But no matter what I tried it still won't work as it's expected to. So I asked Leon for help.
+
 
 This my code at that time:
 ![stage2code](/pics/stage2.png)
@@ -40,6 +44,7 @@ Leon and I closely examined my code but we couldn't figure out what went wrong. 
 ##### Stage Three: Scroller
 
 At first I want to make this page change as user scroll down the page. So I used the window.onscroll function.
+
 
 This is what I tried:
 ![stage3code](/pics/stage3.png)
