@@ -1,9 +1,9 @@
 import currentBox from "./leonScroller.js";
-let w = 1700;
-let h = 800;
-let padding = 40;
-let s = 150;
-let xScale = d3.scaleLinear().range([padding, w*0.6]);
+let w = 3000;
+let h = 1500;
+let padding = 60;
+let s = 200;
+let xScale = d3.scaleLinear().range([padding, w*0.4]);
 let graphStage = 1;
 let modal = document.getElementById('myModal');
 let span = document.getElementsByClassName('close')[0];
@@ -221,10 +221,10 @@ d3.csv("HCMST.csv").then(function(incomingData){
       else{ return 0};
     }else if(graphStage == 2){
       if(isOnline(d) == true){
-        return w/4
+        return w/8
       }
       else{
-        return w/2
+        return w/4
       }
     }
     else{
@@ -268,7 +268,7 @@ d3.csv("HCMST.csv").then(function(incomingData){
     return h/4
     }
     else{
-    return h/2
+    return h/4
     }
   }
   ))
@@ -329,7 +329,7 @@ function forceCluster(alpha) {
     let xAxis = d3.axisBottom(xScale);
     let xAxisGroup = viz.append("g")
         .attr("class", "xaxisgroup")
-        .attr("transform", "translate(0,"+(h-padding*2)+")")
+        .attr("transform", "translate(0,"+(h-padding*12)+")")
     ;
     xAxisGroup.call(xAxis);
 
