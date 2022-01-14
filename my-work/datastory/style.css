@@ -1,7 +1,7 @@
 svg{
   position: absolute;
   background-color: black;
-  top:120%;
+  top:130%;
   left:0px;
 }
 /* ul {
@@ -95,7 +95,7 @@ h1 {
 p{  font-family: Baskerville;
   color:white;
   text-align: left;
-  font-size: 20px;
+  font-size: 15px;
   margin: 20px
 }
 .modalcontent{

@@ -1,9 +1,9 @@
 import currentBox from "./leonScroller.js";
 let w = 3000;
 let h = 1500;
-let padding = 60;
-let s = 200;
-let xScale = d3.scaleLinear().range([padding, w*0.4]);
+let padding = 30;
+let s = 150;
+let xScale = d3.scaleLinear().range([padding, w*0.3]);
 let graphStage = 1;
 let modal = document.getElementById('myModal');
 let span = document.getElementsByClassName('close')[0];
