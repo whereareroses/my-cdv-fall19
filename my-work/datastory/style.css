@@ -146,7 +146,7 @@ p{  font-family: Baskerville;
   color:lavender;
   position: relative;
   top:130px;
-  left:48%;
+  left:50%;
   text-align: left;
   font-size: 15px;
   transform: rotate(90deg)
@@ -175,7 +175,7 @@ p{  font-family: Baskerville;
     height: 70vh;
     position:absolute;
     top:150%;
-    left:75%;
+    left:72%;
     overflow:scroll;
 
   }

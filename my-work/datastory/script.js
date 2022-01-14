@@ -234,34 +234,34 @@ d3.csv("HCMST.csv").then(function(incomingData){
   .force("forceY",d3.forceY(function (d){
     if(graphStage == 1){
     if (isCowork(d) == true){
-      return padding*2 + s/2
+      return padding*6 + s/2
     }
     else if(isFamily(d) == true){
-      return padding*2 + s/2
+      return padding*6 + s/2
     }
     else if(isFriend(d) == true){
-      return padding*2 + s/2
+      return padding*6 + s/2
     }
     else if(isNeighbor(d) == true){
-      return padding*2 + s/2
+      return padding*6 + s/2
     }
     else if(isOther(d) == true){
-      return padding*2 + s/2
+      return padding*6 + s/2
     }
     else if(isChat(d) == true){
-      return padding*2 + s/2 +s + padding*2
+      return padding*6 + s/2 +s + padding*2
     }
     else if(isGame(d) == true){
-      return padding*2 + s/2 +s + padding*2
+      return padding*6 + s/2 +s + padding*2
     }
     else if(isDating(d) == true){
-      return padding*2 + s/2 +s + padding*2
+      return padding*6 + s/2 +s + padding*2
     }
     else if(isSocial(d) == true){
-      return padding*2 + s/2 +s + padding*2
+      return padding*6 + s/2 +s + padding*2
     }
     else if(isIOther(d) == true){
-      return padding*2 + s/2 +s + padding*2
+      return padding*6 + s/2 +s + padding*2
     }
     else{ return 0};
   }else if(graphStage == 2){
@@ -329,7 +329,7 @@ function forceCluster(alpha) {
     let xAxis = d3.axisBottom(xScale);
     let xAxisGroup = viz.append("g")
         .attr("class", "xaxisgroup")
-        .attr("transform", "translate(0,"+(h-padding*12)+")")
+        .attr("transform", "translate(0,"+(h-padding*20)+")")
     ;
     xAxisGroup.call(xAxis);
 
