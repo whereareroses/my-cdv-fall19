@@ -340,12 +340,60 @@ let previousSection;
 d3.select("#textboxes").on("scroll", function(){
   currentBox(function(box){
     console.log(box.id);
-    if(box.id=="two" && box.id!=previousSection){
+    if(box.id=="one" && box.id!=previousSection){
+      console.log("changing viz");
+      graphStage = 1
+      simulation.force("forceX").initialize(incomingData);
+      simulation.force("forceY").initialize(incomingData);
+      simulation.alpha(0.4);
+      simulation.restart();
+      previousSection = box.id;
+      let texts1 = document.getElementsByClassName('graph1');
+      let texts2 = document.getElementsByClassName("graph2");
+      for(let text1 of texts1){
+        text1.style.display= "block"
+      }
+      for(let text2 of texts2){
+        text2.style.display= "none"
+      }
+      document.getElementById("graph3").style.display="none"
+      viz.selectAll(".datagroup").attr("fill",function(d){
+          if (isCowork(d) == true){
+            return "lightskyblue"
+          }
+          else if(isFamily(d) == true){
+            return "plum"
+          }
+          else if(isFriend(d) == true){
+            return "salmon"
+          }
+          else if(isNeighbor(d) == true){
+            return "limegreen"
+          }
+          else if(isOther(d) == true){
+            return "gold"
+          }
+          else if(isChat(d) == true){
+            return "deeppink"
+          }
+          else if(isGame(d) == true){
+            return "lavender"
+          }
+          else if(isDating(d) == true){
+            return "aqua"
+          }
+          else if(isSocial(d) == true){
+            return "peachpuff"
+          }
+          else if(isIOther(d) == true){
+            return "palegreen"
+          }})
+    }else if(box.id=="two" && box.id!=previousSection){
       console.log("changing viz");
       graphStage = 2
       simulation.force("forceX").initialize(incomingData);
       simulation.force("forceY").initialize(incomingData);
-      simulation.alpha(0.5);
+      simulation.alpha(0.4);
       simulation.restart();
       previousSection = box.id;
       let texts1 = document.getElementsByClassName('graph1');
@@ -371,7 +419,7 @@ d3.select("#textboxes").on("scroll", function(){
       graphStage = 3
       simulation.force("forceX").initialize(incomingData);
       simulation.force("forceY").initialize(incomingData);
-      simulation.alpha(0.5);
+      simulation.alpha(0.4);
       simulation.restart();
       let texts1 = document.getElementsByClassName('graph1');
       let texts2 = document.getElementsByClassName("graph2");
