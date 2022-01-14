@@ -172,10 +172,10 @@ p{  font-family: Baskerville;
 #textboxes {
     width: 25%;
     border: white 1px solid;
-    height: 60vh;
+    height: 70vh;
     position:absolute;
-    top:120%;
-    left:70%;
+    top:150%;
+    left:75%;
     overflow:scroll;
 
   }
