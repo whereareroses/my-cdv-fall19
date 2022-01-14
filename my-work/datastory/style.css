@@ -1,7 +1,7 @@
 svg{
   position: absolute;
   background-color: black;
-  top:110%;
+  top:120%;
   left:0px;
 }
 /* ul {
@@ -86,7 +86,7 @@ li a:hover {
 
 h1 {
     position: relative;
-    top:-1100px;
+    top:-850px;
     left:60px;
     color: white;
     font-family: Trattatello;
@@ -95,8 +95,8 @@ h1 {
 p{  font-family: Baskerville;
   color:white;
   text-align: left;
-  font-size: 25px;
-  margin: 20px;
+  font-size: 20px;
+  margin: 20px
 }
 .modalcontent{
   color:black
@@ -105,20 +105,20 @@ p{  font-family: Baskerville;
   color: white;
   font-family: Baskerville;
   font-size: 15px;
-  position: relative;
+  position: absolute;
 }
 .graph2{
   color: white;
   font-family: Baskerville;
   font-size: 15px;
-  position: relative;
+  position: absolute;
   display: none;
 }
 #graph3{
   color: white;
   font-family: Baskerville;
   font-size: 15px;
-  position: relative;
+  position: absolute;
   display: none;
 }
 #p1 {
@@ -126,8 +126,8 @@ p{  font-family: Baskerville;
   font-family: Baskerville;
   color:white;
   position: relative;
-  top:-1100px;
-  left:40px;
+  top:-850px;
+  left:60px;
   text-align: left;
   font-size: 25px;
 }
@@ -135,7 +135,7 @@ p{  font-family: Baskerville;
   font-family: Baskerville;
   color:white;
   position: relative;
-  top:-50px;
+  top:-150px;
   left:45%;
   text-align: left;
   font-size: 15px;
@@ -152,19 +152,19 @@ p{  font-family: Baskerville;
   transform: rotate(90deg)
 }
 #love{
-  height:10%;
-  width:110%;
+  height:22%;
+  width:1700px;
   position: relative;
   padding: none;
   margin: none;
   left:-10px;
-  top:-100px;
+  top:-10px;
 }
 #arrow{
   width: 150px;
   height: 150px;
   position: relative;
-  top:-1100px;
+  top:-800px;
   left:90%;
   transform: rotate(135deg)
 }
