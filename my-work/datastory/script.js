@@ -221,10 +221,10 @@ d3.csv("HCMST.csv").then(function(incomingData){
       else{ return 0};
     }else if(graphStage == 2){
       if(isOnline(d) == true){
-        return w/8
+        return w/10
       }
       else{
-        return w/4
+        return w/5
       }
     }
     else{
@@ -331,7 +331,7 @@ function forceCluster(alpha) {
         .attr("class", "xaxisgroup")
         .attr("transform", "translate(0,"+(h-padding*28)+")")
     ;
-    xAxisGroup.call(xAxis);
+
 
 
 
@@ -349,12 +349,16 @@ d3.select("#textboxes").on("scroll", function(){
       simulation.restart();
       previousSection = box.id;
       let texts1 = document.getElementsByClassName('graph1');
-      let texts2 = document.getElementsByClassName("graph2")
+      let texts2 = document.getElementsByClassName("graph2");
+      let texts3 = document.getElementsByClassName("graph3")
       for(let text1 of texts1){
         text1.style.display= "none"
       }
       for(let text2 of texts2){
         text2.style.display= "block"
+      }
+      for(let text3 of texts3){
+        text3.style.display= "none"
       }
       viz.selectAll(".datagroup").transition().attr("fill",function(d){
         if(isOnline(d)){
@@ -373,14 +377,18 @@ d3.select("#textboxes").on("scroll", function(){
       simulation.alpha(0.5);
       simulation.restart();
       let texts1 = document.getElementsByClassName('graph1');
-      let texts2 = document.getElementsByClassName("graph2")
+      let texts2 = document.getElementsByClassName("graph2");
+      let texts3 = document.getElementsByClassName("graph3")
       for(let text1 of texts1){
         text1.style.display= "none"
       }
       for(let text2 of texts2){
         text2.style.display= "none"
       }
-      document.getElementById("graph3").style.display="block"
+      for(let text3 of texts3){
+        text3.style.display= "block"
+      }
+      xAxisGroup.call(xAxis);
       previousSection = box.id;
     }
 
