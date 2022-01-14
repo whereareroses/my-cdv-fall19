@@ -350,16 +350,13 @@ d3.select("#textboxes").on("scroll", function(){
       previousSection = box.id;
       let texts1 = document.getElementsByClassName('graph1');
       let texts2 = document.getElementsByClassName("graph2");
-      let texts3 = document.getElementsByClassName("graph3")
       for(let text1 of texts1){
         text1.style.display= "none"
       }
       for(let text2 of texts2){
         text2.style.display= "block"
       }
-      for(let text3 of texts3){
-        text3.style.display= "none"
-      }
+      document.getElementById("graph3").style.display="none"
       viz.selectAll(".datagroup").transition().attr("fill",function(d){
         if(isOnline(d)){
           return "hotpink"
@@ -378,17 +375,14 @@ d3.select("#textboxes").on("scroll", function(){
       simulation.restart();
       let texts1 = document.getElementsByClassName('graph1');
       let texts2 = document.getElementsByClassName("graph2");
-      let texts3 = document.getElementsByClassName("graph3")
       for(let text1 of texts1){
         text1.style.display= "none"
       }
       for(let text2 of texts2){
         text2.style.display= "none"
       }
-      for(let text3 of texts3){
-        text3.style.display= "block"
-      }
       xAxisGroup.call(xAxis);
+      document.getElementById("graph3").style.display="block"
       previousSection = box.id;
     }
 
