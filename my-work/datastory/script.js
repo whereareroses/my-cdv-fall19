@@ -329,7 +329,7 @@ function forceCluster(alpha) {
     let xAxis = d3.axisBottom(xScale);
     let xAxisGroup = viz.append("g")
         .attr("class", "xaxisgroup")
-        .attr("transform", "translate(0,"+(h-padding*20)+")")
+        .attr("transform", "translate(0,"+(h-padding*28)+")")
     ;
     xAxisGroup.call(xAxis);
 
